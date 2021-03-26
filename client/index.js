@@ -1,3 +1,27 @@
+#!/usr/bin/env node
+
+/*
+    chmod +x index.js
+*/
+
+/*
+bash node index.js
+npm i -g @arthurtimoteo/hacker-chat-client
+npm unlink -g @arthurtimoteo/hacker-chat-client
+hacker-chat \
+    --username arthur \
+    --room sala01 \
+
+./index.js \
+    --username arthur \
+    --room sala01 \
+
+node index.js \
+    --username arthur \
+    --room sala01 \
+    --hostUri localhost
+*/
+
 import Events from 'events';
 import CliConfig from './src/cliConfig.js';
 import SocketClient from './src/socket.js';
