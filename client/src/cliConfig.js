@@ -1,3 +1,4 @@
+//This is the link of the server in production
 const PRODUCTION_URL = 'https://hacker-chat-at.herokuapp.com/'
 
 export default class CliConfig{
